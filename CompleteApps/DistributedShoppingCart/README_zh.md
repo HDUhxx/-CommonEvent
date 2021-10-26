@@ -35,6 +35,6 @@
    具体环境搭建请[参考](https://developer.harmonyos.com/cn/docs/documentation/doc-guides/installation_process-0000001071425528) 。
 
 2. 使用限制
-   •本sample是一个模拟网上购物的应用，商品数据都是从文件中读取，所以需要在resource下准备一个商品清单文档（product_datas.json,具体路径：resource/rawfile/）。用户可以根据自己的喜爱添加商品信息。
+   本sample是一个模拟网上购物的应用，商品数据都是从文件中读取，所以需要在resource下准备一个商品清单文档（product_datas.json,具体路径：resource/rawfile/）。
 
    
