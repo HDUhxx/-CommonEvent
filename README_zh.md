@@ -23,5 +23,5 @@
 
 ## 相关仓
 
-1.  OpenHarmonyOS 相关的应用示例：[OpenHarmonyOS_app_sample](https://gitee.com/openharmony/app_samples)
+1.  OpenHarmony 相关的应用示例：[OpenHarmony_app_sample](https://gitee.com/openharmony/app_samples)
 
