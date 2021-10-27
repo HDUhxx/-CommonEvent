@@ -12,7 +12,7 @@ Open the sample app. The home screen shows the offerings, as well as their respe
 
 ###### 2. Adding Offerings to the Shopping Cart
 
-Touch an offering. On the details page displayed, touch **Add to Cart" in the lower right corner. If this is the first offering added to the shopping cart, a number badge is added. Otherwise, the number badge is automatically incremented.
+Touch an offering. On the details page displayed, touch **Add to Cart** in the lower right corner. If this is the first offering added to the shopping cart, a number badge is added. Otherwise, the number badge is automatically incremented.
 
 ###### 3. Sharing a Shopping Cart
 
