@@ -19,6 +19,7 @@ import ohos.aafwk.ability.Ability;
 import ohos.aafwk.content.Intent;
 import ohos.agp.components.Button;
 import ohos.agp.components.Text;
+import ohos.app.dispatcher.task.TaskPriority;
 import ohos.media.common.Source;
 import ohos.media.player.Player;
 import ohos.samples.audioplayer.utils.LogUtil;
@@ -117,7 +118,7 @@ public class OnlinePlayClient extends Ability {
     @Override
     protected void onStop() {
         super.onStop();
-        release();
+        getGlobalTaskDispatcher(TaskPriority.DEFAULT).asyncDispatch(this::release);
     }
 
     private void release() {
