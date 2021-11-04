@@ -61,6 +61,19 @@ public class WidgetHelper {
      * @param durationTime the duration time
      */
     public static void showTips(Context context, String msg, int durationTime) {
+        context.getMainTaskDispatcher().asyncDispatch(() -> {
+            showTipsUi(context, msg, durationTime);
+        });
+    }
+
+    /**
+     * Show tips ui.
+     *
+     * @param context the context
+     * @param msg the msg
+     * @param durationTime the duration time
+     */
+    public static void showTipsUi(Context context, String msg, int durationTime) {
         Component rootView = LayoutScatter.getInstance(context).parse(ResourceTable.Layout_widget_helper,
             null, false);
         Text text = (Text)rootView.findComponentById(ResourceTable.Id_helperText);
