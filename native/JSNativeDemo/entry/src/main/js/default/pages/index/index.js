@@ -21,7 +21,7 @@ export default {
     },
     napiTest() {
         console.info("Ace Kee NapiTest");
-        console.info("AceApplication NapiDemoAdd demo.add = " + hello.add(123, 456));
+        console.info("AceApplication JSNativeDemo demo.add = " + hello.add(123, 456));
         this.napiResult = '123 + 456 = ' + hello.add(123, 456);
     }
 }

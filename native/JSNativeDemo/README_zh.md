@@ -1,4 +1,4 @@
-# NapiDemo
+# JSNativeDemo
 ## 简介
 本示例使用JS和C++开发，使用JS调用C++代码，并在UI上显示C++代码运行结果
 

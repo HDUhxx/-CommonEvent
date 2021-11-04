@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "ohos.samples.napidemo",
+    "bundleName": "ohos.samples.jsnativedemo",
     "vendor": "samples",
     "version": {
       "code": 1000000,
@@ -9,9 +9,9 @@
   },
   "deviceConfig": {},
   "module": {
-    "package": "ohos.samples.napidemo",
+    "package": "ohos.samples.jsnativedemo",
     "name": ".MyApplication",
-    "mainAbility": "ohos.samples.napidemo.MainAbility",
+    "mainAbility": "ohos.samples.jsnativedemo.MainAbility",
     "deviceType": [
       "phone"
     ],
@@ -34,7 +34,7 @@
           }
         ],
         "visible": true,
-        "name": "ohos.samples.napidemo.MainAbility",
+        "name": "ohos.samples.jsnativedemo.MainAbility",
         "icon": "$media:icon",
         "description": "$string:mainability_description",
         "label": "$string:entry_MainAbility",
