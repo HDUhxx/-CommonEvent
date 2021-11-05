@@ -1,4 +1,4 @@
-package ohos.samples.napidemo;
+package ohos.samples.jsnativedemo;
 
 import ohos.aafwk.ability.AbilityPackage;
 
