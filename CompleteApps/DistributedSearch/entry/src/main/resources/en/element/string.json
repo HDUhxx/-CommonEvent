@@ -14,11 +14,11 @@
     },
     {
       "name": "button_distributed_device",
-      "value": "Devices"
+      "value": "Dev"
     },
     {
       "name": "button_add_distributed",
-      "value": "Add to Distributed File System"
+      "value": "Join distributed file system"
     },
     {
       "name": "image_label",
@@ -50,11 +50,11 @@
     },
     {
       "name": "confirm_label",
-      "value": "OK"
+      "value": "Confirm"
     },
     {
       "name": "input_notice_msg",
-      "value": "Enter a valid keyword for search."
+      "value": "Please enter a valid search keyword"
     },
     {
       "name": "file_path_label",
@@ -66,23 +66,27 @@
     },
     {
       "name": "distributed_exception_info",
-      "value": "Abnormal distributed file."
+      "value": "Note: distributed file exception!"
     },
     {
       "name": "file_source_label",
-      "value": "Source"
+      "value": "File source"
     },
     {
       "name": "delete_file_info",
-      "value": "Delete this file?"
+      "value": "Are you sure to delete this file?"
     },
     {
       "name": "delete_file_warn",
-      "value": "The file cannot be recovered after being deleted."
+      "value": "The file cannot be recovered after deletion"
     },
     {
       "name": "delete_label",
       "value": "Delete"
+    },
+    {
+      "name": "Enter_the_key_to_search",
+      "value": "Enter the key to search"
     }
   ]
 }
