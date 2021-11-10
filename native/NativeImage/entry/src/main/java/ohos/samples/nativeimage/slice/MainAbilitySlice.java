@@ -61,17 +61,26 @@ public class MainAbilitySlice extends AbilitySlice {
     }
 
     private void getImageInfo(Component component) {
+        if(image.getPixelMap().isReleased()){
+            return;
+        }
         String result = GetImageInfoFromJNI(image.getPixelMap());
         resultText.setText(getString(ResourceTable.String_get_image_info) + ": " + result);
         HiLogUtils.info(TAG, getString(ResourceTable.String_get_image_info) + ": " + result);
     }
 
     private void unAccessPixels(Component component) {
+        if(image.getPixelMap().isReleased()){
+            return;
+        }
         int result = UnAccessPixelsFromJNI(image.getPixelMap());
         formatResult(getString(ResourceTable.String_unaccess_pixels), result);
     }
 
     private void accessPixels(Component component) {
+        if(image.getPixelMap().isReleased()){
+            return;
+        }
         int result = AccessPixelsFromJNI(image.getPixelMap(), image.getPixelMap().getPixelBytesNumber());
         formatResult(getString(ResourceTable.String_access_pixels), result);
     }
