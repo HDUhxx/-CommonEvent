@@ -46,7 +46,9 @@ public class AnimatorFrameSlice extends AbilitySlice {
     private void initComponents() {
         componentContainer = (DirectionalLayout) findComponentById(ResourceTable.Id_frame_container);
         Component startButton = findComponentById(ResourceTable.Id_start_animation_button);
+        Component stopButton = findComponentById(ResourceTable.Id_stop_animation_button);
         startButton.setClickedListener(this::startAnimation);
+        stopButton.setClickedListener(this::stopAnimation);
 
         Component component = new Component(getContext());
         component.setWidth(500);
@@ -57,6 +59,10 @@ public class AnimatorFrameSlice extends AbilitySlice {
 
     private void startAnimation(Component component) {
         frameAnimationElement.start();
+    }
+
+    private void stopAnimation(Component component) {
+        frameAnimationElement.stop();
     }
 
     @Override

@@ -13,6 +13,10 @@
       "value": "Start"
     },
     {
+      "name": "stop",
+      "value": "Stop"
+    },
+    {
       "name": "serially_animator_group",
       "value": "Serially Animator Group"
     },
