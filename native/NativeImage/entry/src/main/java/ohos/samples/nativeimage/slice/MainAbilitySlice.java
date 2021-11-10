@@ -39,7 +39,7 @@ public class MainAbilitySlice extends AbilitySlice {
     private static final int OHOS_IMAGE_RESULT_JNI_EXCEPTION = -2;
 
     private Text resultText;
-    private PixelMap pixelMap;
+    private Image image;
 
     @Override
     public void onStart(Intent intent) {
@@ -49,32 +49,30 @@ public class MainAbilitySlice extends AbilitySlice {
     }
 
     private void initComponents() {
-        Image image = (Image) findComponentById(ResourceTable.Id_image);
+        image = (Image) findComponentById(ResourceTable.Id_image);
         Button btnAccessPixels = (Button) findComponentById(ResourceTable.Id_access_pixels);
         Button btnGetImageInfo = (Button) findComponentById(ResourceTable.Id_get_image_info);
         Button btnUnAccessPixels = (Button) findComponentById(ResourceTable.Id_unaccess_pixels);
         resultText = (Text) findComponentById(ResourceTable.Id_result_text);
 
-        pixelMap = image.getPixelMap();
         btnAccessPixels.setClickedListener(this::accessPixels);
         btnGetImageInfo.setClickedListener(this::getImageInfo);
         btnUnAccessPixels.setClickedListener(this::unAccessPixels);
     }
 
     private void getImageInfo(Component component) {
-        String result = GetImageInfoFromJNI(pixelMap);
+        String result = GetImageInfoFromJNI(image.getPixelMap());
         resultText.setText(getString(ResourceTable.String_get_image_info) + ": " + result);
         HiLogUtils.info(TAG, getString(ResourceTable.String_get_image_info) + ": " + result);
     }
 
     private void unAccessPixels(Component component) {
-        int result = UnAccessPixelsFromJNI(pixelMap);
+        int result = UnAccessPixelsFromJNI(image.getPixelMap());
         formatResult(getString(ResourceTable.String_unaccess_pixels), result);
-        pixelMap.release();
     }
 
     private void accessPixels(Component component) {
-        int result = AccessPixelsFromJNI(pixelMap, pixelMap.getPixelBytesNumber());
+        int result = AccessPixelsFromJNI(image.getPixelMap(), image.getPixelMap().getPixelBytesNumber());
         formatResult(getString(ResourceTable.String_access_pixels), result);
     }
 
@@ -110,9 +108,6 @@ public class MainAbilitySlice extends AbilitySlice {
     @Override
     public void onStop() {
         super.onStop();
-        if(!pixelMap.isReleased()){
-            pixelMap.release();
-        }
     }
 
     /**
