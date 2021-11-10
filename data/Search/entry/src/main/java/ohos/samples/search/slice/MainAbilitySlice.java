@@ -74,11 +74,11 @@ public class MainAbilitySlice extends AbilitySlice {
             try {
                 lock.await(3000, TimeUnit.MILLISECONDS);
                 if (searchAbility.hasConnected()) {
-                    getMainTaskDispatcher().asyncDispatch(() -> {
+                    getUITaskDispatcher().asyncDispatch(() -> {
                         searchResult.setText(ResourceTable.String_connect_service_succeed);
                     });
                 } else {
-                    getMainTaskDispatcher().asyncDispatch(() -> {
+                    getUITaskDispatcher().asyncDispatch(() -> {
                         searchResult.setText(ResourceTable.String_connect_service_failed);
                     });
                 }
