@@ -38,4 +38,16 @@
         ohos:text="$string:start"
         ohos:text_size="16vp"
         ohos:top_margin="20vp"/>
+
+    <Button
+        ohos:id="$+id:stop_animation_button"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:button_background"
+        ohos:padding="10vp"
+        ohos:start_margin="24vp"
+        ohos:end_margin="24vp"
+        ohos:text="$string:stop"
+        ohos:text_size="16vp"
+        ohos:top_margin="20vp"/>
 </DirectionalLayout>
