@@ -19,9 +19,11 @@
 
 1.  安装运行应用示例之前，请先通过config.json文件中的"deviceType"字段来确认该应用示例支持的设备类型，可尝试通过修改该字段使其可以在相应类型的设备上运行（config.json文件一般在代码的entry/src/main路径下，不同的Sample可能会有不同）。
 2.  配置开发环境时，如果您想让应用示例运行到HarmonyOS上，请参考[DevEco Studio使用说明](https://developer.harmonyos.com/cn/docs/documentation/doc-guides/tools_overview-0000001053582387)。
-
+3.  Readme中标注为“支持标准系统”或“支持小型系统”的应用示例支持在OpenHarmony上运行，标注为“支持大型系统”的应用示例仅支持在HarmonyOS上运行。
+4.  所有OpenHarmony相关示例请参考OpenHarmony组织下的[app_samples仓](https://gitee.com/openharmony/app_samples)。
 
 ## 相关仓
 
 1.  OpenHarmony 相关的应用示例：[OpenHarmony_app_sample](https://gitee.com/openharmony/app_samples)
+2.  HarmonyOS场景化复杂应用示例：[Codelabs](https://gitee.com/harmonyos/harmonyos_codelabs)
 
