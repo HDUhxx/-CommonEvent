@@ -24,7 +24,7 @@
 
 ## 相关仓
 
-1.  HarmonyOS场景化复杂应用示例：[HarmonyOs codelabs](https://gitee.com/harmonyos/harmonyos_codelabs)
+1.  HarmonyOS场景化复杂应用示例：[HarmonyOS codelabs](https://gitee.com/harmonyos/harmonyos_codelabs)
 2.  OpenHarmony基础应用示例：[OpenHarmony app_samples](https://gitee.com/openharmony/app_samples)
 3.  OpenHarmony场景化复杂应用示例：[OpenHarmony codelabs](https://gitee.com/openharmony/codelabs)
 
