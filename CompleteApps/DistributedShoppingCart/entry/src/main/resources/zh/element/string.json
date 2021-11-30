@@ -137,7 +137,7 @@
       "value": "加入购物车"
     },
     {
-      "name": "meger_cart_request_info",
+      "name": "merge_cart_request_info",
       "value": "您的好友***向您分享购物车，是否合并购物车？"
     },
     {
@@ -197,11 +197,11 @@
       "value": "元 优惠明细"
     },
     {
-      "name": "meger_success_info",
+      "name": "merge_success_info",
       "value": "合并成功"
     },
     {
-      "name": "meger_cart_label",
+      "name": "merge_cart_label",
       "value": "合并购物车"
     },
     {
@@ -209,7 +209,7 @@
       "value": "您的好友"
     },
     {
-      "name": "meger_cart_request",
+      "name": "merge_cart_request",
       "value": "请求向您合并他的购物车，是否合并？"
     },
     {

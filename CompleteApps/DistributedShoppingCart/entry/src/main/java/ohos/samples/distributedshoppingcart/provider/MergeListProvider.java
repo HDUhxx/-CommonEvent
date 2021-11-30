@@ -29,19 +29,19 @@ import ohos.samples.distributedshoppingcart.utils.CommonUtils;
 import java.util.List;
 
 /**
- * MegerListProvider
+ * MergeListProvider
  */
-public class MegerListProvider extends BaseItemProvider {
+public class MergeListProvider extends BaseItemProvider {
     private final List<ProductInfo> infoList;
     private final Context context;
 
     /**
-     * MegerListProvider
+     * MergeListProvider
      *
      * @param listBasicInfo the basic info list
      * @param context the context
      */
-    public MegerListProvider(List<ProductInfo> listBasicInfo, Context context) {
+    public MergeListProvider(List<ProductInfo> listBasicInfo, Context context) {
         this.infoList = listBasicInfo;
         this.context = context;
     }
@@ -66,7 +66,7 @@ public class MegerListProvider extends BaseItemProvider {
         ViewHolder viewHolder = new ViewHolder();
         Component temp = component;
         if (temp == null) {
-            temp = LayoutScatter.getInstance(context).parse(ResourceTable.Layout_meger_shoping_cart_list, null, false);
+            temp = LayoutScatter.getInstance(context).parse(ResourceTable.Layout_merge_shoping_cart_list, null, false);
             viewHolder.image = (Image) temp.findComponentById(ResourceTable.Id_item_pro_image);
             viewHolder.content = (Text) temp.findComponentById(ResourceTable.Id_item_pro_title);
             viewHolder.param = (Text) temp.findComponentById(ResourceTable.Id_item_pro_param);

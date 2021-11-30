@@ -137,7 +137,7 @@
       "value": "Add to cart"
     },
     {
-      "name": "meger_cart_request_info",
+      "name": "merge_cart_request_info",
       "value": "Your friend * * * shared shopping carts with you. Do you want to merge shopping carts?"
     },
     {
@@ -197,11 +197,11 @@
       "value": "RMB discount details"
     },
     {
-      "name": "meger_success_info",
+      "name": "merge_success_info",
       "value": "Merge succeeded"
     },
     {
-      "name": "meger_cart_label",
+      "name": "merge_cart_label",
       "value": "Merge shopping cart"
     },
     {
@@ -209,7 +209,7 @@
       "value": "your friend"
     },
     {
-      "name": "meger_cart_request",
+      "name": "merge_cart_request",
       "value": "Request to merge his shopping cart with you. Do you want to merge?"
     },
     {

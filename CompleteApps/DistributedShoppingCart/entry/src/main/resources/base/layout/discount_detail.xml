@@ -15,7 +15,7 @@
  -->
 <DirectionalLayout
     xmlns:ohos="http://schemas.huawei.com/res/ohos"
-    ohos:id="$+id:detail_meger_dialog"
+    ohos:id="$+id:detail_merge_dialog"
     ohos:background_element="$graphic:background_dialog"
     ohos:height="1500px"
     ohos:width="match_parent"
@@ -23,7 +23,7 @@
     ohos:layout_alignment="horizontal_center">
 
     <Image
-        ohos:id="$+id:share_meger_icon_cancel"
+        ohos:id="$+id:share_merge_icon_cancel"
         ohos:width="72px"
         ohos:height="72px"
         ohos:top_margin="40px"
@@ -209,7 +209,7 @@
             ohos:width="match_parent"
             ohos:id="$+id:discount_detatil">
             <Text
-                ohos:id="$+id:meger_total_money"
+                ohos:id="$+id:merge_total_money"
                 ohos:width="450px"
                 ohos:height="60px"
                 ohos:text_alignment="left"
@@ -220,36 +220,36 @@
                 ohos:text_color="#F93737"
                 ohos:weight="4"/>
             <Text
-                ohos:id="$+id:meger_total_discount"
+                ohos:id="$+id:merge_total_discount"
                 ohos:width="400px"
                 ohos:height="60px"
                 ohos:text_alignment="left"
                 ohos:start_margin="80px"
                 ohos:end_margin="0px"
-                ohos:right_of="$id:meger_total_money"
+                ohos:right_of="$id:merge_total_money"
                 ohos:text_size="14vp"
                 ohos:text="$string:discount_0label"
                 ohos:text_color="#F93737"
                 ohos:weight="4"/>
             <Image
-                ohos:id="$+id:meger_discount_detail"
+                ohos:id="$+id:merge_discount_detail"
                 ohos:height="50px"
                 ohos:width="50px"
                 ohos:top_margin="10px"
                 ohos:start_margin="30px"
                 ohos:end_margin="0px"
                 ohos:image_src="$media:icon_mingxi"
-                ohos:right_of="$id:meger_total_discount"
+                ohos:right_of="$id:merge_total_discount"
                 />
         </DependentLayout>
         <DependentLayout
             ohos:height="100px"
             ohos:width="match_parent">
             <Text
-                ohos:id="$+id:meger_total_my_money"
+                ohos:id="$+id:merge_total_my_money"
                 ohos:width="450px"
                 ohos:height="60px"
-                ohos:below="$id:meger_total_money"
+                ohos:below="$id:merge_total_money"
                 ohos:text_alignment="left"
                 ohos:start_margin="50px"
                 ohos:end_margin="0px"
@@ -258,14 +258,14 @@
                 ohos:text_color="#F93737"
                 ohos:weight="4"/>
             <Text
-                ohos:id="$+id:meger_total_my_price"
+                ohos:id="$+id:merge_total_my_price"
                 ohos:width="290px"
                 ohos:height="60px"
                 ohos:text_alignment="left"
                 ohos:start_margin="240px"
                 ohos:end_margin="0px"
-                ohos:end_of="$id:meger_total_my_money"
-                ohos:below="$id:meger_total_discount"
+                ohos:end_of="$id:merge_total_my_money"
+                ohos:below="$id:merge_total_discount"
                 ohos:text_size="14vp"
                 ohos:text="$string:original_price_0_label"
                 ohos:text_color="#AAAAAA"
@@ -275,10 +275,10 @@
             ohos:height="100px"
             ohos:width="match_parent">
             <Text
-                ohos:id="$+id:meger_total_some_money"
+                ohos:id="$+id:merge_total_some_money"
                 ohos:width="450px"
                 ohos:height="60px"
-                ohos:below="$id:meger_total_my_money"
+                ohos:below="$id:merge_total_my_money"
                 ohos:text_alignment="left"
                 ohos:start_margin="50px"
                 ohos:end_margin="0px"
@@ -287,14 +287,14 @@
                 ohos:text_color="#F93737"
                 ohos:weight="4"/>
             <Text
-                ohos:id="$+id:meger_total_some_price"
+                ohos:id="$+id:merge_total_some_price"
                 ohos:width="290px"
                 ohos:height="60px"
                 ohos:text_alignment="left"
                 ohos:start_margin="240px"
                 ohos:end_margin="0px"
-                ohos:end_of="$id:meger_total_some_money"
-                ohos:below="$id:meger_total_my_price"
+                ohos:end_of="$id:merge_total_some_money"
+                ohos:below="$id:merge_total_my_price"
                 ohos:text_size="14vp"
                 ohos:text="$string:original_price_0_label"
                 ohos:text_color="#AAAAAA"
@@ -305,7 +305,7 @@
             ohos:height="match_parent"
             ohos:width="match_parent">
             <Image
-                ohos:id="$+id:meger_select_all"
+                ohos:id="$+id:merge_select_all"
                 ohos:height="54px"
                 ohos:width="54px"
                 ohos:start_margin="90px"
@@ -320,11 +320,11 @@
                 ohos:start_margin="30px"
                 ohos:end_margin="0px"
                 ohos:top_margin="45px"
-                ohos:right_of="$id:meger_select_all"
+                ohos:right_of="$id:merge_select_all"
                 ohos:text_size="14vp"
                 ohos:weight="4"/>
             <Text
-                ohos:id="$+id:meger_to_pay_money"
+                ohos:id="$+id:merge_to_pay_money"
                 ohos:width="300px"
                 ohos:height="140px"
                 ohos:background_element="$graphic:corner_bg_comment"

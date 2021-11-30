@@ -127,7 +127,7 @@ public class ShareShoppingCartSlice extends AbilitySlice {
         );
         imgMerge.setClickedListener(v -> {
             initDevices();
-            showDeviceList(ShoppingCartManage.MEGER_EVENT);
+            showDeviceList(ShoppingCartManage.MERGE_EVENT);
         });
         imgShare.setClickedListener(v -> {
             initDevices();

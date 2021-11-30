@@ -43,7 +43,7 @@ public class ShoppingCartManage {
 
     public static final String SUB_EVENT = "SUB_EVENT";
     public static final String ACTION_EVENT = "ACTION_EVENT";
-    public static final String MEGER_EVENT = "meger";
+    public static final String MERGE_EVENT = "merge";
     public static final String SHARE_EVENT = "share";
     public static final String TOTAL_MONEY = "TOTAL_MONEY";
     public static final String DISCOUNT_MONEY = "DISCOUNT_MONEY";

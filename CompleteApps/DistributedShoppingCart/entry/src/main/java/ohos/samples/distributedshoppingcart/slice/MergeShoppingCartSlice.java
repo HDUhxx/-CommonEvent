@@ -27,7 +27,7 @@ import ohos.samples.distributedshoppingcart.ResourceTable;
 import ohos.samples.distributedshoppingcart.been.MyIAbilityConnection;
 import ohos.samples.distributedshoppingcart.been.ProductInfo;
 import ohos.samples.distributedshoppingcart.been.ShoppingCartManage;
-import ohos.samples.distributedshoppingcart.provider.MegerListProvider;
+import ohos.samples.distributedshoppingcart.provider.MergeListProvider;
 import ohos.samples.distributedshoppingcart.provider.ProductListProvider;
 import ohos.samples.distributedshoppingcart.utils.AddProductDialog;
 import ohos.samples.distributedshoppingcart.utils.DeviceListDialog;
@@ -38,10 +38,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * MegerShoppingCartSlice
+ * MergeShoppingCartSlice
  */
-public class MegerShoppingCartSlice extends AbilitySlice {
-    private static final String TAG = "MegerShoppingCartSlice";
+public class MergeShoppingCartSlice extends AbilitySlice {
+    private static final String TAG = "MergeShoppingCartSlice";
     private static final String LEFT_BRACE = "(";
     private static final String RIGHT_BRACE = ")";
     private static final String ZERO_STR = ".00";
@@ -53,7 +53,7 @@ public class MegerShoppingCartSlice extends AbilitySlice {
     private ListContainer productListContainer;
     private ProductListProvider productListProvider;
     private ListContainer someOneContainer;
-    private MegerListProvider someOneProvider;
+    private MergeListProvider someOneProvider;
     private final List<DeviceInfo> devices = new ArrayList<>();
     private Image imgShare;
     private Image imgMerge;
@@ -80,8 +80,8 @@ public class MegerShoppingCartSlice extends AbilitySlice {
     @Override
     public void onStart(Intent intent) {
         super.onStart(intent);
-        super.setUIContent(ResourceTable.Layout_meger_shoping_cart);
-        ShoppingCartManage.actionShoppingCart = "action.meger";
+        super.setUIContent(ResourceTable.Layout_merge_shoping_cart);
+        ShoppingCartManage.actionShoppingCart = "action.merge";
         initView();
         initListener();
         productListContainer.setItemProvider(productListProvider);
@@ -89,13 +89,13 @@ public class MegerShoppingCartSlice extends AbilitySlice {
         someOneContainer.setItemProvider(someOneProvider);
         someOneProvider.notifyDataChanged();
         initDevices();
-        String action = intent.getStringParam(ShoppingCartManage.MEGER_EVENT);
+        String action = intent.getStringParam(ShoppingCartManage.MERGE_EVENT);
         if (action != null && "sendback".equals(action)) {
             initDevices();
             MyIAbilityConnection myIAbilityConnection =
                     new MyIAbilityConnection(devices.get(0).getDeviceId(),"sendback", getContext());
             myIAbilityConnection.startAbilityFa();
-            new AddProductDialog(this,getString(ResourceTable.String_meger_success_info)).show();
+            new AddProductDialog(this,getString(ResourceTable.String_merge_success_info)).show();
         }
     }
 
@@ -112,18 +112,18 @@ public class MegerShoppingCartSlice extends AbilitySlice {
     private void initView() {
         imgShare = (Image)findComponentById(ResourceTable.Id_share_shopingcart);
         imgMerge = (Image)findComponentById(ResourceTable.Id_distribute_shopingcart);
-        imgDetail = (Image)findComponentById(ResourceTable.Id_meger_discount_detail);
-        textDetail = (Text)findComponentById(ResourceTable.Id_meger_total_discount);
-        textPayMoney = (Text)findComponentById(ResourceTable.Id_meger_to_pay_money);
+        imgDetail = (Image)findComponentById(ResourceTable.Id_merge_discount_detail);
+        textDetail = (Text)findComponentById(ResourceTable.Id_merge_total_discount);
+        textPayMoney = (Text)findComponentById(ResourceTable.Id_merge_to_pay_money);
         textPayMoney.setText(getString(ResourceTable.String_settle_accounts_label) + LEFT_BRACE
             + ShoppingCartManage.myShoppingCart.size() + RIGHT_BRACE);
-        imgSelectAll = (Image)findComponentById(ResourceTable.Id_meger_select_all);
-        textTotalMoney = (Text)findComponentById(ResourceTable.Id_meger_total_money);
-        textMyTotalMoney = (Text)findComponentById(ResourceTable.Id_meger_total_my_money);
-        textMySrcTotalMoney = (Text)findComponentById(ResourceTable.Id_meger_total_my_price);
-        textSomeoneTotalMoney = (Text)findComponentById(ResourceTable.Id_meger_total_some_money);
-        textSomeoneSrcTotalMoney = (Text)findComponentById(ResourceTable.Id_meger_total_some_price);
-        ((Text)findComponentById(ResourceTable.Id_meger_dev_name)).setText(ShoppingCartManage.devName
+        imgSelectAll = (Image)findComponentById(ResourceTable.Id_merge_select_all);
+        textTotalMoney = (Text)findComponentById(ResourceTable.Id_merge_total_money);
+        textMyTotalMoney = (Text)findComponentById(ResourceTable.Id_merge_total_my_money);
+        textMySrcTotalMoney = (Text)findComponentById(ResourceTable.Id_merge_total_my_price);
+        textSomeoneTotalMoney = (Text)findComponentById(ResourceTable.Id_merge_total_some_money);
+        textSomeoneSrcTotalMoney = (Text)findComponentById(ResourceTable.Id_merge_total_some_price);
+        ((Text)findComponentById(ResourceTable.Id_merge_dev_name)).setText(ShoppingCartManage.devName
             + getString(ResourceTable.String_shopping_cart_slice));
 
         productListContainer = (ListContainer) findComponentById(ResourceTable.Id_my_container);
@@ -132,7 +132,7 @@ public class MegerShoppingCartSlice extends AbilitySlice {
             updateListView();
         });
         someOneContainer = (ListContainer) findComponentById(ResourceTable.Id_someone_container);
-        someOneProvider = new MegerListProvider(ShoppingCartManage.someOneShoppingCart, this);
+        someOneProvider = new MergeListProvider(ShoppingCartManage.someOneShoppingCart, this);
         getTotalMoney();
     }
 
@@ -197,7 +197,7 @@ public class MegerShoppingCartSlice extends AbilitySlice {
 
         int[] mMoney = {totalSrcMoney, discountMoney, totalMoney, myTotalMoney, someoneTotalMoney};
         int[] mTotalMoney = {mySrcTotalMoney, someoneSrcTotalMoney};
-        Image layout = (Image)findComponentById(ResourceTable.Id_meger_discount_detail);
+        Image layout = (Image)findComponentById(ResourceTable.Id_merge_discount_detail);
         layout.setClickedListener(v-> new DiscountDetailDialog(this, mMoney, mTotalMoney, count).show());
         textPayMoney.setClickedListener(v -> {
             Intent intent = new Intent();
@@ -209,7 +209,7 @@ public class MegerShoppingCartSlice extends AbilitySlice {
             present(new ShowOrderSlice(),intent);
         });
         imgMerge.setClickedListener(
-            v-> showDeviceList(ShoppingCartManage.MEGER_EVENT));
+            v-> showDeviceList(ShoppingCartManage.MERGE_EVENT));
         imgShare.setClickedListener(
             v-> showDeviceList(ShoppingCartManage.SHARE_EVENT));
         initSelectAllListener();
@@ -253,11 +253,11 @@ public class MegerShoppingCartSlice extends AbilitySlice {
     }
 
     private void showDeviceList(String opt) {
-        new DeviceListDialog(MegerShoppingCartSlice.this, opt,
+        new DeviceListDialog(MergeShoppingCartSlice.this, opt,
             (devId,option) -> {
                 MyIAbilityConnection myIAbilityConnection = new MyIAbilityConnection(devId,option,getContext());
                 myIAbilityConnection.startAbilityFa();
-                new AddProductDialog(this,getString(ResourceTable.String_meger_success_info)).show();
+                new AddProductDialog(this,getString(ResourceTable.String_merge_success_info)).show();
             }).show();
     }
 

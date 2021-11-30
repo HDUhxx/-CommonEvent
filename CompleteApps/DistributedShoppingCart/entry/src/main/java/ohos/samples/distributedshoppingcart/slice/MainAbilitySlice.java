@@ -38,7 +38,7 @@ import ohos.samples.distributedshoppingcart.been.ShoppingCartManage;
 import ohos.samples.distributedshoppingcart.provider.MainListProvider;
 import ohos.samples.distributedshoppingcart.utils.CommonUtils;
 import ohos.samples.distributedshoppingcart.utils.LogUtils;
-import ohos.samples.distributedshoppingcart.utils.MegerDialog;
+import ohos.samples.distributedshoppingcart.utils.MergeDialog;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -75,23 +75,23 @@ public class MainAbilitySlice extends AbilitySlice {
         if (ShoppingCartManage.devName == null || ShoppingCartManage.devName.equals("")) {
             ShoppingCartManage.getDevices();
         }
-        if (opt.equals(ShoppingCartManage.MEGER_EVENT)) {
-            new MegerDialog(this,getString(ResourceTable.String_meger_cart_label),
+        if (opt.equals(ShoppingCartManage.MERGE_EVENT)) {
+            new MergeDialog(this,getString(ResourceTable.String_merge_cart_label),
             getString(ResourceTable.String_friends_info) + ShoppingCartManage.devName
-                + getString(ResourceTable.String_meger_cart_request), ()-> {
+                + getString(ResourceTable.String_merge_cart_request), ()-> {
                 ShoppingCartManage.addProductList(ShoppingCartManage.someOneShoppingCart,
                     ShoppingCartManage.productInfoList);
                 Intent inte = new Intent();
-                inte.setParam(ShoppingCartManage.MEGER_EVENT,"sendback");
-                present(new MegerShoppingCartSlice(),inte);
+                inte.setParam(ShoppingCartManage.MERGE_EVENT,"sendback");
+                present(new MergeShoppingCartSlice(),inte);
             }).show();
         } if ("sendback".equals(opt)) {
                 ShoppingCartManage.addProductList(ShoppingCartManage.someOneShoppingCart,
                     ShoppingCartManage.productInfoList);
                 Intent inte = new Intent();
-                present(new MegerShoppingCartSlice(),inte);
+                present(new MergeShoppingCartSlice(),inte);
         } else if (opt.equals(ShoppingCartManage.SHARE_EVENT)) {
-            new MegerDialog(this,getString(ResourceTable.String_shared_cart_label),
+            new MergeDialog(this,getString(ResourceTable.String_shared_cart_label),
                 getString(ResourceTable.String_friends_info)+ ShoppingCartManage.devName
                 + getString(ResourceTable.String_shared_cart_request), ()-> {
                 ShoppingCartManage.addProductList(ShoppingCartManage.myShoppingCart,
@@ -154,7 +154,7 @@ public class MainAbilitySlice extends AbilitySlice {
                 );
             } else {
                 present(
-                        new MegerShoppingCartSlice(),intent
+                        new MergeShoppingCartSlice(),intent
                 );
             }
         });
