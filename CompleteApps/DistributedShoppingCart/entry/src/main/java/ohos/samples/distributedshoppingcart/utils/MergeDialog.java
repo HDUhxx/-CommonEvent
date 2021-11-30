@@ -24,9 +24,9 @@ import ohos.app.Context;
 import ohos.samples.distributedshoppingcart.ResourceTable;
 
 /**
- * MegerDialog
+ * MergeDialog
  */
-public class MegerDialog {
+public class MergeDialog {
     private static final int DIALOG_WIDTH = 840;
     private static final int DIALOG_HEIGHT = 660;
 
@@ -35,14 +35,14 @@ public class MegerDialog {
     private final String textTitle;
 
     /**
-     * MegerDialog
+     * MergeDialog
      *
      * @param context the context
      * @param title the title msg
      * @param text the text msg
      * @param listener the listener event
      */
-    public MegerDialog(Context context,String title,String text ,SelectResultListener listener) {
+    public MergeDialog(Context context,String title,String text ,SelectResultListener listener) {
         this.textTitle = title;
         this.text = text;
         initView(context,listener);
@@ -64,17 +64,17 @@ public class MegerDialog {
         commonDialog.setSize(DIALOG_WIDTH, DIALOG_HEIGHT);
         commonDialog.setAutoClosable(true);
         Component dialogLayout = LayoutScatter.getInstance(context)
-                .parse(ResourceTable.Layout_share_meger_dialog, null, false);
+                .parse(ResourceTable.Layout_share_merge_dialog, null, false);
         commonDialog.setContentCustomComponent(dialogLayout);
-        ((Text)dialogLayout.findComponentById(ResourceTable.Id_text_meger_tips)).setText(text);
-        ((Text)dialogLayout.findComponentById(ResourceTable.Id_text_meger)).setText(textTitle);
-        dialogLayout.findComponentById(ResourceTable.Id_share_meger_dialog).setClickedListener(
+        ((Text)dialogLayout.findComponentById(ResourceTable.Id_text_merge_tips)).setText(text);
+        ((Text)dialogLayout.findComponentById(ResourceTable.Id_text_merge)).setText(textTitle);
+        dialogLayout.findComponentById(ResourceTable.Id_share_merge_dialog).setClickedListener(
             component -> commonDialog.hide());
-        dialogLayout.findComponentById(ResourceTable.Id_text_meger_cancel).setClickedListener(
+        dialogLayout.findComponentById(ResourceTable.Id_text_merge_cancel).setClickedListener(
             component -> commonDialog.hide());
-        dialogLayout.findComponentById(ResourceTable.Id_share_meger_icon_cancel).setClickedListener(
+        dialogLayout.findComponentById(ResourceTable.Id_share_merge_icon_cancel).setClickedListener(
             component -> commonDialog.hide());
-        dialogLayout.findComponentById(ResourceTable.Id_text_meger_sure).setClickedListener(component -> {
+        dialogLayout.findComponentById(ResourceTable.Id_text_merge_sure).setClickedListener(component -> {
             listener.callBack();
             commonDialog.hide();
         });

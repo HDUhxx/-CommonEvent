@@ -137,7 +137,7 @@
       "value": "Add to Cart"
     },
     {
-      "name": "meger_cart_request_info",
+      "name": "merge_cart_request_info",
       "value": "Your friend * * * shares their shopping cart with you. Do you want to merge the shopping carts?"
     },
     {
@@ -197,11 +197,11 @@
       "value": " CNY coupon used. Details"
     },
     {
-      "name": "meger_success_info",
+      "name": "merge_success_info",
       "value": "Shopping carts merged."
     },
     {
-      "name": "meger_cart_label",
+      "name": "merge_cart_label",
       "value": "Merge Shopping Carts"
     },
     {
@@ -209,7 +209,7 @@
       "value": "Your friend "
     },
     {
-      "name": "meger_cart_request",
+      "name": "merge_cart_request",
       "value": "requests to merge their shopping cart with yours. Do you want to merge the shopping carts?"
     },
     {

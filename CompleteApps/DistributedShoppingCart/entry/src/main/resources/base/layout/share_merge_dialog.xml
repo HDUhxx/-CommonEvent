@@ -15,7 +15,7 @@
  -->
 <DirectionalLayout
     xmlns:ohos="http://schemas.huawei.com/res/ohos"
-    ohos:id="$+id:share_meger_dialog"
+    ohos:id="$+id:share_merge_dialog"
     ohos:background_element="$graphic:background_dialog"
     ohos:height="match_parent"
     ohos:width="match_parent"
@@ -23,7 +23,7 @@
     ohos:layout_alignment="horizontal_center">
 
     <Image
-        ohos:id="$+id:share_meger_icon_cancel"
+        ohos:id="$+id:share_merge_icon_cancel"
         ohos:width="72px"
         ohos:height="72px"
         ohos:top_margin="40px"
@@ -31,7 +31,7 @@
         ohos:end_margin="0px"
         ohos:image_src="$media:icon_cancel"/>
     <Text
-        ohos:id="$+id:text_meger"
+        ohos:id="$+id:text_merge"
         ohos:text_size="20vp"
         ohos:weight="6vp"
         ohos:height="100px"
@@ -41,10 +41,10 @@
         ohos:text=""
         ohos:text_alignment="center"/>
     <Text
-        ohos:id="$+id:text_meger_tips"
+        ohos:id="$+id:text_merge_tips"
         ohos:height="120px"
         ohos:width="match_content"
-        ohos:text="$string:meger_cart_request_info"
+        ohos:text="$string:merge_cart_request_info"
         ohos:text_alignment="left"
         ohos:multiple_lines="true"
         ohos:top_margin="30px"
@@ -59,7 +59,7 @@
         ohos:top_margin="210px"
         ohos:width="match_parent">
         <Text
-            ohos:id="$+id:text_meger_cancel"
+            ohos:id="$+id:text_merge_cancel"
             ohos:height="100px"
             ohos:width="match_content"
             ohos:text="$string:cancel_label"
@@ -69,13 +69,13 @@
             ohos:text_color="#777777"
             ohos:weight="5vp"/>
         <Text
-            ohos:id="$+id:text_meger_sure"
+            ohos:id="$+id:text_merge_sure"
             ohos:height="100px"
             ohos:width="match_content"
             ohos:text="$string:agree_label"
             ohos:start_margin="0px"
             ohos:end_margin="520px"
-            ohos:right_of="$id:text_meger_cancel"
+            ohos:right_of="$id:text_merge_cancel"
             ohos:text_color="#F93737"
             ohos:text_size="16vp"
             ohos:weight="5vp"/>

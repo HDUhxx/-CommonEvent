@@ -86,7 +86,7 @@ public class ProductDetailAbilitySlice extends AbilitySlice {
                 );
             } else {
                 present(
-                        new MegerShoppingCartSlice(),intent
+                        new MergeShoppingCartSlice(),intent
                 );
             }
         });

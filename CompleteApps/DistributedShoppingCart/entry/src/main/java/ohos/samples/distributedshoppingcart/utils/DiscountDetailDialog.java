@@ -72,38 +72,38 @@ public class DiscountDetailDialog {
 
         ((Text)dialogLayout.findComponentById(ResourceTable.Id_head_text5)).setText(ShoppingCartManage.devName);
 
-        Image imgDetail = (Image) dialogLayout.findComponentById(ResourceTable.Id_meger_discount_detail);
+        Image imgDetail = (Image) dialogLayout.findComponentById(ResourceTable.Id_merge_discount_detail);
         imgDetail.setClickedListener(v -> commonDialog.hide());
 
-        Text textPayMoney = (Text)dialogLayout.findComponentById(ResourceTable.Id_meger_to_pay_money);
+        Text textPayMoney = (Text)dialogLayout.findComponentById(ResourceTable.Id_merge_to_pay_money);
         textPayMoney.setText(context.getString(ResourceTable.String_settle_accounts_label) + "("+ count +")");
 
         String tmp = context.getString(ResourceTable.String_original_price_label) + MONEY_STR;
 
-        Text textMySrcTotalMoney = (Text)dialogLayout.findComponentById(ResourceTable.Id_meger_total_my_price);
+        Text textMySrcTotalMoney = (Text)dialogLayout.findComponentById(ResourceTable.Id_merge_total_my_price);
         textMySrcTotalMoney.setText(tmp + srcMoney[0] + ZERO_STR);
 
-        Text textSomeoneSrcTotalMoney = (Text)dialogLayout.findComponentById(ResourceTable.Id_meger_total_some_price);
+        Text textSomeoneSrcTotalMoney = (Text)dialogLayout.findComponentById(ResourceTable.Id_merge_total_some_price);
         textSomeoneSrcTotalMoney.setText(tmp + srcMoney[1] + ZERO_STR);
 
-        Text textMyTotalMoney = (Text)dialogLayout.findComponentById(ResourceTable.Id_meger_total_my_money);
+        Text textMyTotalMoney = (Text)dialogLayout.findComponentById(ResourceTable.Id_merge_total_my_money);
         textMyTotalMoney.setText(context.getString(ResourceTable.String_my_label)
             + MONEY_STR + text[TEXT_IDX_3] + ZERO_STR);
 
-        Text textSomeoneTotalMoney = (Text)dialogLayout.findComponentById(ResourceTable.Id_meger_total_some_money);
+        Text textSomeoneTotalMoney = (Text)dialogLayout.findComponentById(ResourceTable.Id_merge_total_some_money);
         textSomeoneTotalMoney.setText(ShoppingCartManage.devName + MONEY_STR + text[TEXT_IDX_4] + ZERO_STR);
 
-        Text textTotalMoney = (Text)dialogLayout.findComponentById(ResourceTable.Id_meger_total_money);
+        Text textTotalMoney = (Text)dialogLayout.findComponentById(ResourceTable.Id_merge_total_money);
         textTotalMoney.setText(context.getString(ResourceTable.String_total_label)
             + MONEY_STR + text[TEXT_IDX_2] + ZERO_STR);
 
-        Text textDetail = (Text)dialogLayout.findComponentById(ResourceTable.Id_meger_total_discount);
+        Text textDetail = (Text)dialogLayout.findComponentById(ResourceTable.Id_merge_total_discount);
         textDetail.setText(context.getString(ResourceTable.String_discount)
             + text[TEXT_IDX_1] + context.getString(ResourceTable.String_discount_details));
 
-        dialogLayout.findComponentById(ResourceTable.Id_share_meger_icon_cancel).setClickedListener(
+        dialogLayout.findComponentById(ResourceTable.Id_share_merge_icon_cancel).setClickedListener(
                 component -> commonDialog.hide());
-        dialogLayout.findComponentById(ResourceTable.Id_detail_meger_dialog).setClickedListener(component -> commonDialog.hide());
+        dialogLayout.findComponentById(ResourceTable.Id_detail_merge_dialog).setClickedListener(component -> commonDialog.hide());
     }
 
     /**

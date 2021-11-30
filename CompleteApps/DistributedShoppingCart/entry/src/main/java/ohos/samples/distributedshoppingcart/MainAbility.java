@@ -20,7 +20,7 @@ import ohos.aafwk.content.Intent;
 import ohos.agp.window.service.WindowManager;
 import ohos.bundle.IBundleManager;
 import ohos.samples.distributedshoppingcart.slice.MainAbilitySlice;
-import ohos.samples.distributedshoppingcart.slice.MegerShoppingCartSlice;
+import ohos.samples.distributedshoppingcart.slice.MergeShoppingCartSlice;
 import ohos.samples.distributedshoppingcart.slice.ShareShoppingCartSlice;
 
 /**
@@ -39,7 +39,7 @@ public class MainAbility extends Ability {
         super.setMainRoute(MainAbilitySlice.class.getName());
 
         addActionRoute("action.share", ShareShoppingCartSlice.class.getName());
-        addActionRoute("action.meger", MegerShoppingCartSlice.class.getName());
+        addActionRoute("action.merge", MergeShoppingCartSlice.class.getName());
 
         if (verifySelfPermission(PERMISSION_DATA_SYNC) != IBundleManager.PERMISSION_GRANTED) {
             if (canRequestPermission(PERMISSION_DATA_SYNC)) {
