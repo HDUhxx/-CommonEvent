@@ -138,18 +138,18 @@
         ohos:background_element="#FFFFFF"/>
     <DirectionalLayout
         xmlns:ohos="http://schemas.huawei.com/res/ohos"
-        ohos:height="480vp"
+        ohos:height="450vp"
         ohos:width="360vp"
         ohos:orientation="vertical">
         <ListContainer
-            ohos:height="480vp"
+            ohos:height="450vp"
             ohos:width="360vp"
             ohos:id="$+id:listview"
             ohos:layout_alignment="left"
             ohos:visibility="hide"
             />
         <Text
-            ohos:height="480vp"
+            ohos:height="450vp"
             ohos:width="360vp"
             ohos:id="$+id:result_info"
             ohos:text_alignment="center"
