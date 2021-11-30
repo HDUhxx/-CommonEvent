@@ -95,7 +95,7 @@ public class MainAbilitySlice extends AbilitySlice {
     private void sendToOriginalThread(Component component) {
         stringBuffer = new StringBuffer();
         long param = 0;
-        InnerEvent innerEvent = InnerEvent.get(EVENT_MESSAGE_CROSS_THREAD, param, eventRunner);
+        InnerEvent innerEvent = InnerEvent.get(EVENT_MESSAGE_CROSS_THREAD, param, EventRunner.current());
         handler.sendEvent(innerEvent, DELAY_TIME, EventHandler.Priority.IMMEDIATE);
     }
 
