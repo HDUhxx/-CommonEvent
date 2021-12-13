@@ -58,6 +58,8 @@ public class VideoRecordSlice extends AbilitySlice {
 
     private boolean isRecording;
 
+    private String videoPath = "";
+
     private final Object lock = new Object();
 
     private final EventHandler eventHandler = new EventHandler(EventRunner.current()) {
@@ -126,7 +128,8 @@ public class VideoRecordSlice extends AbilitySlice {
         source.setRecorderVideoSource(Recorder.VideoSource.SURFACE);
         mediaRecorder.setSource(source);
         mediaRecorder.setOutputFormat(Recorder.OutputFormat.MPEG_4);
-        File file = new File(getFilesDir(), "VID_" + System.currentTimeMillis() + ".mp4");
+        File file = new File(getExternalFilesDir(null), "VID_" + System.currentTimeMillis() + ".mp4");
+        videoPath = file.getPath();
         StorageProperty.Builder storagePropertyBuilder = new StorageProperty.Builder();
         storagePropertyBuilder.setRecorderFile(file);
         mediaRecorder.setStorageProperty(storagePropertyBuilder.build());
@@ -247,7 +250,7 @@ public class VideoRecordSlice extends AbilitySlice {
                 HiLog.error(LABEL_LOG, "%{public}s", "stopRecord occur exception");
             }
         }
-        new ToastDialog(this).setText("video saved").show();
+        new ToastDialog(this).setText("video saved, path = " + videoPath).show();
     }
 
     private void updateComponentVisible(boolean isVisible) {

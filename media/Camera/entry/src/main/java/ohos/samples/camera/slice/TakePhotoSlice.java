@@ -124,7 +124,7 @@ public class TakePhotoSlice extends AbilitySlice {
     }
 
     private void saveImage(ImageReceiver receiver) {
-        File saveFile = new File(getFilesDir(), "IMG_" + System.currentTimeMillis() + ".jpg");
+        File saveFile = new File(getExternalFilesDir(null), "IMG_" + System.currentTimeMillis() + ".jpg");
         ohos.media.image.Image image = receiver.readNextImage();
         ohos.media.image.Image.Component component = image.getComponent(ImageFormat.ComponentType.JPEG);
         byte[] bytes = new byte[component.remaining()];
@@ -132,7 +132,7 @@ public class TakePhotoSlice extends AbilitySlice {
         try (FileOutputStream output = new FileOutputStream(saveFile)) {
             output.write(bytes);
             output.flush();
-            String msg = "Take photo succeed";
+            String msg = "Take photo succeed, path=" + saveFile.getPath();
             showTips(this, msg);
         } catch (IOException e) {
             HiLog.error(LABEL_LOG, "%{public}s", "saveImage IOException");
