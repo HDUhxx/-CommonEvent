@@ -9,8 +9,12 @@
       "value": "hap sample empty page"
     },
     {
-      "name": "county_title",
-      "value": "US"
+      "name": "country_title",
+      "value": "Country"
+    },
+    {
+      "name": "language_title",
+      "value": "Language"
     },
     {
       "name": "time_title",

@@ -23,8 +23,14 @@ import ohos.agp.components.Component;
 import ohos.agp.components.DirectionalLayout;
 import ohos.agp.components.element.ShapeElement;
 import ohos.agp.utils.Color;
+import ohos.global.resource.Element;
+import ohos.global.resource.NotExistException;
+import ohos.global.resource.WrongTypeException;
 import ohos.samples.customlayout.ResourceTable;
 import ohos.samples.customlayout.component.CustomLayout;
+
+import java.io.IOException;
+import java.util.Arrays;
 
 /**
  * MainAbilitySlice
@@ -64,15 +70,26 @@ public class MainAbilitySlice extends AbilitySlice {
         button.setBackground(shapeElement);
         button.setTextColor(Color.WHITE);
         DirectionalLayout.LayoutConfig layoutConfig = new DirectionalLayout.LayoutConfig(300, 100);
+        String[] size = null;
+        try {
+            Element elementStrarray = getResourceManager().getElement(ResourceTable.Strarray_size);
+            size = elementStrarray.getStringArray();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (NotExistException e) {
+            e.printStackTrace();
+        } catch (WrongTypeException e) {
+            e.printStackTrace();
+        }
         if (index == 1) {
             layoutConfig = new DirectionalLayout.LayoutConfig(1080, 200);
-            button.setText(ResourceTable.String_size01);
+            button.setText(size[0]);
         } else if (index == 6) {
             layoutConfig = new DirectionalLayout.LayoutConfig(500, 100);
-            button.setText(ResourceTable.String_size02);
+            button.setText(size[1]);
         } else if (index == 8) {
             layoutConfig = new DirectionalLayout.LayoutConfig(600, 600);
-            button.setText(ResourceTable.String_size03);
+            button.setText(size[2]);
         } else {
             button.setText("Item" + index);
         }
