@@ -30,7 +30,6 @@ import ohos.samples.customlayout.ResourceTable;
 import ohos.samples.customlayout.component.CustomLayout;
 
 import java.io.IOException;
-import java.util.Arrays;
 
 /**
  * MainAbilitySlice
@@ -70,7 +69,7 @@ public class MainAbilitySlice extends AbilitySlice {
         button.setBackground(shapeElement);
         button.setTextColor(Color.WHITE);
         DirectionalLayout.LayoutConfig layoutConfig = new DirectionalLayout.LayoutConfig(300, 100);
-        String[] size = null;
+        String[] size = new String[3];
         try {
             Element elementStrarray = getResourceManager().getElement(ResourceTable.Strarray_size);
             size = elementStrarray.getStringArray();
