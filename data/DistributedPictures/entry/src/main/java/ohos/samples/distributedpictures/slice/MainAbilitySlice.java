@@ -93,6 +93,7 @@ public class MainAbilitySlice extends AbilitySlice {
             decodingOpts.desiredPixelFormat = PixelFormat.ARGB_8888;
             PixelMap pixelMap = imageSource.createPixelmap(decodingOpts);
             remoteImage.setPixelMap(pixelMap);
+            imageSource.release();
         } catch (SourceDataMalformedException e) {
             HiLog.error(LABEL_LOG, "%{public}s", "readToDistributedDir SourceDataMalformedException ");
         }
