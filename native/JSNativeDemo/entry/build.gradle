@@ -15,7 +15,7 @@ ohos {
         }
     }
     externalNativeBuild {
-        path "src/main/cpp.CMakeLists.txt"
+        path "src/main/cpp/CMakeLists.txt"
         arguments "-v"
         abiFilters "arm64-v8a"
         cppFlags ""
