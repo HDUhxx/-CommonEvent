@@ -1,4 +1,4 @@
-# CustomLayout<a name="EN-US_TOPIC_0000001172608453"></a>
+# Custom Layout<a name="EN-US_TOPIC_0000001172608453"></a>
 
 ### Introduction<a name="section10959162817412"></a>
 

@@ -57,7 +57,7 @@
   - [`AbilityForm:`AbilityForm（Java）](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ability/AbilityForm)   
   - [`AbilityIntent:`Intent启动Ability（Java）](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ability/AbilityIntent)   
   - [`AbilityInteraction:`Ability交互和迁移（Java）](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ability/AbilityInteraction)   
-  - [`CommonEvent:`共公事件（Java）](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ability/CommonEvent)   
+  - [`CommonEvent:`公共事件（Java）](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ability/CommonEvent)   
   - [`CustomNotification:`自定义通知（JS）](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ability/CustomNotification)   
   - [`DataAbility:`DataAbility（Java）](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ability/DataAbility)   
   - [`Delegator:`Ability测试（Java）](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ability/Delegator)   
