@@ -1,8 +1,8 @@
-# Lightweight Preferences Database<a name="EN-US_TOPIC_0000001080279654"></a>
+# Lightweight Preference Database<a name="EN-US_TOPIC_0000001080279654"></a>
 
 ### Introduction<a name="section103mcpsimp"></a>
 
-The lightweight  **Preferences**  database supports lightweight key-value operations and allows local apps to store a small amount of data. This sample shows how to create, delete, update, and query preferences data in an app by using  **Preferences**. It mainly covers the preferences data for the login and home screen background color.
+The lightweight preference database supports lightweight key-value operations and allows local apps to store a small amount of data. This sample shows how to create, delete, update, and query preferences data in an app by using  **Preferences**. It mainly covers the preferences data for the login and home screen background color.
 
 ### Usage<a name="section105mcpsimp"></a>
 

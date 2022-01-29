@@ -7,12 +7,19 @@ This sample is developed using Java. It searches for local images, audio files, 
 ##### Usage
 
 1. Search
+
 	Enter a keyword in the text box, and then touch the search button. You can also select a specific category to narrow down the search scope.
+
 2. Viewing the Search Result
+
 	The found files are displayed in a list.
+
 	You can touch a specific record to view the file path.
+
 	If no file is found, a message indicating no result is displayed.
+
 3. Viewing Distributed Devices
+
 	Touch the **Devices** button in the lower right corner of the home screen to view the devices that have been added to the distributed file system.
 
 ##### Constraints

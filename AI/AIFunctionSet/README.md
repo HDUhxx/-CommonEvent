@@ -1,6 +1,6 @@
 # AI<a name="EN-US_TOPIC_0000001080471882"></a>
 
--   HarmonyOSOpenHarmony provides abundant Artificial Intelligence \(AI\) capabilities that can be used out of the box. You can easily integrate these AI capabilities on demand to make your applications smarter. The AI capabilities are as follows:
+-   HarmonyOS provides abundant Artificial Intelligence \(AI\) capabilities that can be used out of the box. You can easily integrate these AI capabilities on demand to make your applications smarter. The AI capabilities are as follows:
 
     \* QR code generation: Generates a quick response \(QR\) code image based on a given string and QR code image size and returns it through byte streams. The caller can then restore the QR code image from the QR code byte streams.
 

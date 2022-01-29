@@ -1,4 +1,4 @@
-# CustomComponent<a name="EN-US_TOPIC_0000001172908319"></a>
+# Custom Components<a name="EN-US_TOPIC_0000001172908319"></a>
 
 ### Introduction<a name="section104mcpsimp"></a>
 
