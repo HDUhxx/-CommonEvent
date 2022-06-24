@@ -111,21 +111,6 @@
             ],
             "updateEnabled": true,
             "updateDuration": 1
-          },
-          {
-            "jsComponentName": "card",
-            "isDefault": true,
-            "scheduledUpdateTime": "10:30",
-            "defaultDimension": "2*4",
-            "name": "card",
-            "description": "This is a service widget",
-            "colorMode": "auto",
-            "type": "JS",
-            "supportDimensions": [
-              "2*4"
-            ],
-            "updateEnabled": true,
-            "updateDuration": 1
           }
         ]
       },
