@@ -10,5 +10,10 @@
 
 ### 约束与限制<a name="section118mcpsimp"></a>
 
-本示例仅支持在大型系统上运行，对于同一个应用，最多支持配置16张卡片。
+1.本示例仅支持在大型系统上运行，对于同一个应用，最多支持配置16张卡片。
 
+2.验证本示例的系统版本号：2.0.0.202110110309(DEVC00E1R53dexlog) GPU Turbo。
+
+3.验证本示例的HarmonyOS版本：2.0.0 Devloper Beta3。
+
+4.本示例需要使用 DevEco Studio 3.0 Beta3 (Build Version:3.0.0.533,built on September 26,2021) 才可编译。

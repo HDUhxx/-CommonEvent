@@ -1,10 +1,10 @@
 # 井字过三关
 
-##### 简介
+### 简介
 
 ​        本sample由Java开发，可拉起身边小伙伴手机游戏加入到对局，过三关是非常经典的游戏，可通过时间来判断胜负。
 
-##### 使用说明
+### 使用说明
 
 1. ###### 拉起应用
 
@@ -40,15 +40,13 @@
 
    
 
-##### 约束与限制
+### 约束与限制
 
-1. 编译约束
+1. 本示例支持在大型系统上运行。
 
-   ​        设置DevEco Studio开发环境。
 
-   ​        具体环境搭建请[参考](https://developer.harmonyos.com/cn/docs/documentation/doc-guides/installation_process-0000001071425528) 。
-  
-
-2. 使用限制
-   ​        该应用必须要有两部同一组网内的手机，且只支持同时两部手机进行游戏
+2. 该应用必须要有两部同一组网内的手机，且只支持同时两部手机进行游戏。
+3. 验证本示例的系统版本号：2.0.0.202110110309(DEVC00E1R53dexlog) GPU Turbo。
+4. 验证本示例的HarmonyOS版本：2.0.0 Devloper Beta3。
+5. 本示例需要使用 DevEco Studio 3.0 Beta3 (Build Version:3.0.0.533,built on September 26,2021) 才可编译。
 

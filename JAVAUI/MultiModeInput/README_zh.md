@@ -15,7 +15,12 @@
 
 ### 约束与限制<a name="section115mcpsimp"></a>
 
-本示例仅支持在标准系统上运行；
+1.本示例仅支持在标准系统上运行；
 
-多模输入事件在不同形态产品支持的情况请[点击链接](https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ui-multimodal-overview-0000000000031876)查看。
+2.多模输入事件在不同形态产品支持的情况请[点击链接](https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ui-multimodal-overview-0000000000031876)查看。
 
+3.验证本示例的系统版本号：2.0.0.202110110309(DEVC00E1R53dexlog) GPU Turbo。
+
+4.验证本示例的HarmonyOS版本：2.0.0 Devloper Beta3。
+
+5.本示例需要使用 DevEco Studio 3.0 Beta3 (Build Version:3.0.0.533,built on September 26,2021) 才可编译。

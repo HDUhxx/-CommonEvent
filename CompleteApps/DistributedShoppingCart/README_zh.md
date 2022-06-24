@@ -1,10 +1,10 @@
 # 分布式购物车
 
-##### 简介
+### 简介
 
 ​       本sample是通过java开发的应用，模拟现实在网购中通过近场通信分享购物车（将A手机的购物分享给B），以及商家进行优惠促销过程中，还可以通过在多人一起合并拼单购物，比如demo中满5000折扣600，通过多个人一起买满5000，然后分别计算各自的优惠金额进行结算。
 
-##### 使用说明
+### 使用说明
 
 ######  1. 商品浏览
 
@@ -26,15 +26,16 @@
 
 ​       在购物车页面，可以选择购物清单中的某些或者全部的商品进行结算(全部商品选择可以通过工具栏的全选按钮实现),点击右下角的去结算按钮可以进入到结算页面进行商品结算。
 
-##### 约束与限制
+### 约束与限制
 
-1. 编译约束
-   设置DevEco Studio开发环境。
-  
+1. 本示例支持在大型系统上运行。
 
-   具体环境搭建请[参考](https://developer.harmonyos.com/cn/docs/documentation/doc-guides/installation_process-0000001071425528) 。
+2. 本sample是一个模拟网上购物的应用，商品数据都是从文件中读取，所以需要在resource下准备一个商品清单文档（product_datas.json,具体路径：resource/rawfile/）。
+   
+2. 验证本示例的系统版本号：2.0.0.202110110309(DEVC00E1R53dexlog) GPU Turbo。
+   
+4. 验证本示例的HarmonyOS版本：2.0.0 Devloper Beta3。
 
-2. 使用限制
-   本sample是一个模拟网上购物的应用，商品数据都是从文件中读取，所以需要在resource下准备一个商品清单文档（product_datas.json,具体路径：resource/rawfile/）。
+5. 本示例需要使用 DevEco Studio 3.0 Beta3 (Build Version:3.0.0.533,built on September 26,2021) 才可编译。
 
    

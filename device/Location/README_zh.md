@@ -19,6 +19,13 @@
 
 ### 约束与限制
 
-本示例仅支持在大型系统上运行。
+1.本示例仅支持在大型系统上运行。
 
-本示例需获取相关位置权限。
+2.本示例需获取相关位置权限。
+
+3.验证本示例的系统版本号：2.0.0.202110110309(DEVC00E1R53dexlog) GPU Turbo。
+
+4.验证本示例的HarmonyOS版本：2.0.0 Devloper Beta3。
+
+5.本示例需要使用 DevEco Studio 3.0 Beta3 (Build Version:3.0.0.533,built on September 26,2021) 才可编译。
+
