@@ -30,7 +30,7 @@
         ohos:id="$+id:tabList"
         ohos:height="match_content"
         ohos:width="match_parent"
-        ohos:background_element="$ohos:color:fa_sub_background"
+        ohos:background_element="$ohos:color:id_color_background"
         ohos:padding="$float:layout_padding"
         ohos:top_margin="$float:layout_margin"
         ohos:selected_text_color="$ohos:color:id_color_alert"

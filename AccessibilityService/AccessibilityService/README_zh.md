@@ -24,4 +24,4 @@
 
 3.验证本示例的HarmonyOS版本：2.0.0 Devloper Beta3。
 
-4.本示例需要使用 DevEco Studio 3.0 Beta3 (Build Version:3.0.0.533,built on September 26,2021) 才可编译。
+4.本示例需要使用 DevEco Studio 3.0 Beta3 (Build Version:3.0.0.501,built on June 2,2021) 才可编译。
