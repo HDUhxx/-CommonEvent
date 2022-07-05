@@ -1,12 +1,12 @@
-# JS UI<a name="ZH-CN_TOPIC_0000001080439984"></a>
+# 常用组件<a name="ZH-CN_TOPIC_0000001080439984"></a>
 
 ### 简介
 
-本示例通过实时获取电池电量信息和电池充电状态案例来说明 JS 端 FA\(Feature Ability\) 与 Java 端 PA\(Particle  Ability\) 之间的交互能力。
+本示例演示了Text、Rating、Image、Button、Switch、Select、List等常用组件的基础使用方法。
 
 ### 使用说明
 
-在应用页面可选择订阅、取消订阅电池事件和查看电池低等级来获取电池信息与充电状态。
+在应用页面可了解Text、Rating、Image、Button、Switch、Select、List等常用组件的实现效果。
 
 ### 约束与限制
 
