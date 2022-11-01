@@ -20,9 +20,9 @@
   - [`DistributedShoppingCart:`分布式购物车（Java）（API5）](CompleteApps/DistributedShoppingCart) 
   - [`TicTacToeGame:`井字过三关（Java）（API5）](CompleteApps/TicTacToeGame) 
 - ETSUI
-  - [`eTSBuildCommonView:`创建简单视图（eTS）（API7）](ETSUI/eTSBuildCommonView) 
-  - [`eTSDefiningPageLayoutAndConnection:`页面布局和连接（eTS）（API7）](ETSUI/eTSDefiningPageLayoutAndConnection) 
-  - [`eTSDrawingAndAnimation:`绘图和动画（eTS）（API7）](ETSUI/eTSDrawingAndAnimation) 
+  - [`eTSBuildCommonView:`创建简单视图（ArkTS）（API7）](ETSUI/eTSBuildCommonView) 
+  - [`eTSDefiningPageLayoutAndConnection:`页面布局和连接（ArkTS）（API7）](ETSUI/eTSDefiningPageLayoutAndConnection) 
+  - [`eTSDrawingAndAnimation:`绘图和动画（ArkTS）（API7）](ETSUI/eTSDrawingAndAnimation) 
 - JAVAUI
   - [`Animation:`动画（Java）（API）（API5）](JAVAUI/Animation) 
   - [`CommonLayout:`常用布局（Java）（API5）](JAVAUI/CommonLayout)   
