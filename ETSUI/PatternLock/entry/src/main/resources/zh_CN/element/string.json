@@ -1,15 +1,15 @@
 {
   "string": [
     {
-      "name": "entry_desc",
+      "name": "module_desc",
       "value": "图案密码锁"
     },
     {
-      "name": "MainAbility_desc",
+      "name": "EntryAbility_desc",
       "value": "图案密码锁"
     },
     {
-      "name": "MainAbility_label",
+      "name": "EntryAbility_label",
       "value": "图案密码锁"
     },
     {

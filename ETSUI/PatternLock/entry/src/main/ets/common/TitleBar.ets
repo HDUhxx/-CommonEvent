@@ -15,7 +15,7 @@
 
 @Component
 export default struct TitleBar {
-  private title: Resource = $r('app.string.MainAbility_label')
+  private title: Resource = $r('app.string.EntryAbility_label')
 
   build() {
     Row() {

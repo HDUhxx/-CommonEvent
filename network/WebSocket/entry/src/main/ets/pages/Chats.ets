@@ -67,6 +67,7 @@ struct Chats {
 
   onConnect() {
     let promise = socket.connect(this.ipAddress)
+    Logger.info(TAG, `ipAddress:${JSON.stringify(this.ipAddress)}`)
     promise.then((value) => {
       Logger.info(TAG, `connect success`)
     }).catch((err) => {
@@ -106,7 +107,7 @@ struct Chats {
 
   build() {
    Column() {
-      Text($r('app.string.MainAbility_label'))
+      Text($r('app.string.EntryAbility_label'))
         .height(50)
         .fontSize(25)
         .width('100%')

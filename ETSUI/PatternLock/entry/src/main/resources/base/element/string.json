@@ -1,15 +1,15 @@
 {
   "string": [
     {
-      "name": "entry_desc",
+      "name": "module_desc",
       "value": "PatternLock"
     },
     {
-      "name": "MainAbility_desc",
+      "name": "EntryAbility_desc",
       "value": "PatternLock"
     },
     {
-      "name": "MainAbility_label",
+      "name": "EntryAbility_label",
       "value": "PatternLock"
     },
     {

@@ -31,10 +31,10 @@ WebSocket连接：使用WebSocket建立服务器与客户端的双向连接，�
 
 ### 约束与限制
 
-1.本示例仅支持在标准系统上运行。
+1.本示例仅支持在标准系统上运行，支持设备：华为手机或者运行在DevEco Studio上的华为手机模拟器。
 
 2.本项目仅包含客户端，不包含服务端，当前服务端回复客服端为固定消息。
 
-3.本示例为Stage模型，从API version 9开始支持。
+3.本示例为Stage模型，  支持API version 9及以上版本SDK。
 
-4.本示例需要使用DevEco Studio 3.0 Beta4 (Build Version: 3.0.0.992, built on July 14, 2022)才可编译运行。
+4.本示例需要使用 DevEco Studio 3.1 Canary1及以上版本进行编译运行。

@@ -10,7 +10,5 @@
   "description": "example description",
   "repository": {},
   "version": "1.0.0",
-  "dependencies": {
-    "nodejs-websocket": "^1.7.2"
-  }
+  "dependencies": {}
 }
