@@ -1,0 +1,40 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:\\Users\\admin\\.ohos\\config\\openharmony\\auto_ohos_default_ColorFilterSample_com.example.colorfiltersample.cer",
+          "storePassword": "0000001B4BBF4668069D82389F2903BA13CB8AC244DE59297AE3D4CDA5AC695DCE2B13E24CA9B72D641EA6",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B98786727EF52811774EF22E19B6C698930535B84EAD909456CF17A0D4A85429B21DBB570855F61",
+          "profile": "C:\\Users\\admin\\.ohos\\config\\openharmony\\auto_ohos_default_ColorFilterSample_com.example.colorfiltersample.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\admin\\.ohos\\config\\openharmony\\auto_ohos_default_ColorFilterSample_com.example.colorfiltersample.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
