@@ -23,6 +23,7 @@
   - [`eTSBuildCommonView:`创建简单视图（ArkTS）（API7）](ETSUI/eTSBuildCommonView) 
   - [`eTSDefiningPageLayoutAndConnection:`页面布局和连接（ArkTS）（API7）](ETSUI/eTSDefiningPageLayoutAndConnection) 
   - [`eTSDrawingAndAnimation:`绘图和动画（ArkTS）（API7）](ETSUI/eTSDrawingAndAnimation) 
+  - [`BorderImageSample:`组件图片动态边框 （ArkTS）](https://gitee.com/harmonyos/samples/tree/master/ETSUI/BorderImageSample)
 - JAVAUI
   - [`Animation:`动画（Java）（API）（API5）](JAVAUI/Animation) 
   - [`CommonLayout:`常用布局（Java）（API5）](JAVAUI/CommonLayout)   
