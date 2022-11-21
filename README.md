@@ -23,6 +23,7 @@ We provide a series of app samples to help you quickly get familiar with the API
   - [`eTSBuildCommonView:`Building a Common View (eTS)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ETSUI/eTSBuildCommonView) 
   - [`eTSDefiningPageLayoutAndConnection:`Defining Page Layout and Connection (eTS)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ETSUI/eTSDefiningPageLayoutAndConnection) 
   - [`eTSDrawingAndAnimation:`Drawing and Animation (eTS)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ETSUI/eTSDrawingAndAnimation) 
+  - [`BorderImageSample:`Component Image Dynamic Border (ArkTS)](https://gitee.com/harmonyos/samples/tree/master/ETSUI/BorderImageSample) 
 - JAVAUI
   - [`Animation:`Animation (Java)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/JAVAUI/Animation) 
   - [`CommonLayout:`Common Layouts (Java)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/JAVAUI/CommonLayout)   
