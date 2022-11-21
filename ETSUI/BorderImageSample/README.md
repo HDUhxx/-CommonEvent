@@ -5,7 +5,8 @@
 ### 相关概念
 borderImage属性为组件提供了通过图片和渐变色填充边框的能力。  
 
-![](screenshots/default_border_image.png)![](screenshots/border_image_change.png)  
+### 效果预览
+![](screenshots/border_image_preview.gif)
 
 borderImage中传入的是BorderImageOption类型参数，BorderImageOption中如下属性。
 ![](screenshots/slice_sample_image.png)
@@ -45,4 +46,4 @@ fill：参数为布尔类型，对于中心区域5，如果fill为true，则源�
 
 2.本示例支持的SDK版本和DevEco Studio版本：
 SDK：3.2.1.4 Canary1及以上。
-DevEco Studio版本： DevEco Studio Beta4(Build Version: 3.0.0.991, build on July 6, 2022)及以上。
+DevEco Studio版本： DevEco Studio Beta4(Build Version: 3.1.0.100, build on November 3, 2022)及以上。

@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import { StringUtil } from '../common/util/StringUtil'
+import { StringUtil } from '../common/util/StringUtil';
 import { CommonConstants } from '../common/constants/CommonConstants';
 
 @Component
@@ -85,6 +85,8 @@ export struct PreviewComponent {
 
         Text($r('app.string.preview_hint_text'))
           .margin({ left: CommonConstants.PREVIEW_TEXT_HINT_MARGIN_LEFT })
+          .fontSize($r('app.float.text_size'))
+          .fontColor($r('app.color.text_background'))
       }
       .width(CommonConstants.PREVIEW_COLUMN_WIDTH)
       .height(CommonConstants.PREVIEW_COLUMN_HEIGHT)

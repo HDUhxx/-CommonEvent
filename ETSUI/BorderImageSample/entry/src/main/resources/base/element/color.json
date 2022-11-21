@@ -19,6 +19,10 @@
     {
       "name": "text_font",
       "value": "#000000"
+    },
+    {
+      "name": "text_background",
+      "value": "#99000000"
     }
   ]
 }

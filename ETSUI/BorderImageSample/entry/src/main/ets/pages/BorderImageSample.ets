@@ -25,7 +25,7 @@ struct BorderImageSample {
   @Builder NavigationTitle() {
     Column() {
       Text($r('app.string.navigation_text'))
-        .width($r('app.float.navigation_text_width'))
+        .width(CommonConstants.FULL_WIDTH)
         .height($r('app.float.navigation_text_height'))
         .fontSize($r('app.float.navigation_font_size'))
         .fontColor($r('app.color.navigation_font'))

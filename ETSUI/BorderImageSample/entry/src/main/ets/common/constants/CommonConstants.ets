@@ -219,7 +219,7 @@ export class CommonConstants {
   public static readonly PREVIEW_COLUMN_WIDTH: string = '93%';
 
   /**
-   * Preview_column_height.
+   * Preview column height.
    */
   public static readonly PREVIEW_COLUMN_HEIGHT: string = '83%';
 
@@ -229,7 +229,7 @@ export class CommonConstants {
   public static readonly FULL_WIDTH: string = '100%';
 
   /**
-   * Full_height.
+   * Full height.
    */
   public static readonly FULL_HEIGHT: string = '100%';
 }

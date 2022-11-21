@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import { StringUtil } from '../common/util/StringUtil'
+import { StringUtil } from '../common/util/StringUtil';
 import { CommonConstants } from '../common/constants/CommonConstants';
 
 @Component

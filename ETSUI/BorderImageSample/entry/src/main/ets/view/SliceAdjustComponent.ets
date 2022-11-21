@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import { SourceImageComponent } from '../view/SourceImageComponent'
+import { SourceImageComponent } from '../view/SourceImageComponent';
 import { CommonConstants } from '../common/constants/CommonConstants';
 
 @Component
@@ -53,6 +53,8 @@ export struct SliceAdjustComponent {
 
         Text($r('app.string.hint_text'))
           .margin({ left: CommonConstants.SOURCE_TEXT_MARGIN_LEFT })
+          .fontSize($r('app.float.text_size'))
+          .fontColor($r('app.color.text_background'))
       }
       .width(CommonConstants.COLUMN_WIDTH)
       .height(CommonConstants.COLUMN_HEIGHT)

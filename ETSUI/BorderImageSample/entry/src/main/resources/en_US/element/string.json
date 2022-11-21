@@ -22,7 +22,7 @@
     },
     {
       "name": "preview_hint_text",
-      "value": "Sliding Slider can adjust slice parameter size (border cutting width)"
+      "value": "Sliding slider can adjust slice parameter size (border cutting width)"
     },
     {
       "name": "source_image",
@@ -30,7 +30,7 @@
     },
     {
       "name": "hint_text",
-      "value": "Sliding Slider can adjust slice parameter size (border cutting width)"
+      "value": "Sliding slider can adjust slice parameter size (border cutting width)"
     }
   ]
 }

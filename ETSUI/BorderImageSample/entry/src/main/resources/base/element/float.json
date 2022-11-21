@@ -21,6 +21,10 @@
       "value": "20vp"
     },
     {
+      "name": "text_size",
+      "value": "12fp"
+    },
+    {
       "name": "target_text_height",
       "value": "22vp"
     },
