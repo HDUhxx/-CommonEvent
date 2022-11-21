@@ -14,19 +14,19 @@
     },
     {
       "name": "title",
-      "value": "设置图片颜色"
+      "value": "Set picture color"
     },
     {
       "name": "rgba_text",
-      "value": "请输入RGBA矩阵数值:"
+      "value": "Please enter RGBA matrix value:"
     },
     {
       "name": "explain_text",
-      "value": "可修改ColorFilter矩阵数值后，点击底部按钮修改图片颜色"
+      "value": "After modifying the value of ColorFilter matrix, click the button at the bottom to modify the color of the picture"
     },
     {
       "name": "button_text",
-      "value": "点击设置图片颜色"
+      "value": "Click to set the picture color"
     }
   ]
 }

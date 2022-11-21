@@ -18,7 +18,7 @@
  */
 export default class CommonConstants{
   /**
-   * Text font size.
+   * Text font weight.
    */
   static readonly TEXT_FONT_WEIGHT: number = 500;
 
@@ -38,7 +38,7 @@ export default class CommonConstants{
   static readonly COLUMN_TEMPLATE: string = '1fr 1fr 1fr 1fr 1fr';
 
   /**
-   * Row template fo the grid
+   * Row template of the grid.
    */
   static readonly ROW_TEMPLATE: string = '1fr 1fr 1fr 1fr';
 
