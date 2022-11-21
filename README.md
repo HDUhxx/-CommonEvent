@@ -22,8 +22,13 @@ We provide a series of app samples to help you quickly get familiar with the API
 - ETSUI
   - [`eTSBuildCommonView:`Building a Common View (eTS)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ETSUI/eTSBuildCommonView) 
   - [`eTSDefiningPageLayoutAndConnection:`Defining Page Layout and Connection (eTS)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ETSUI/eTSDefiningPageLayoutAndConnection) 
+<<<<<<< HEAD
   - [`eTSDrawingAndAnimation:`Drawing and Animation (eTS)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ETSUI/eTSDrawingAndAnimation)
   - [`ColorFilterSample:`Setting picture color (ArkTS)](https://gitee.com/hundred_miles_long_sky/samples/tree/master/ETSUI/ColorFilterSample)  
+=======
+  - [`eTSDrawingAndAnimation:`Drawing and Animation (eTS)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ETSUI/eTSDrawingAndAnimation) 
+  - [`BorderImageSample:`Component Image Dynamic Border (ArkTS)](https://gitee.com/harmonyos/samples/tree/master/ETSUI/BorderImageSample) 
+>>>>>>> 16f351c182d33f86a9fe3da359b4968be796bc96
 - JAVAUI
   - [`Animation:`Animation (Java)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/JAVAUI/Animation) 
   - [`CommonLayout:`Common Layouts (Java)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/JAVAUI/CommonLayout)   

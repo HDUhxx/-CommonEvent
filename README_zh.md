@@ -21,8 +21,9 @@
   - [`TicTacToeGame:`井字过三关（Java）（API5）](CompleteApps/TicTacToeGame) 
 - ETSUI
   - [`eTSBuildCommonView:`创建简单视图（ArkTS）（API7）](ETSUI/eTSBuildCommonView) 
-  - [`eTSDefiningPageLayoutAndConnection:`页面布局和连接（ArkTS）（API7）](ETSUI/eTSDefiningPageLayoutAndConnection) 
+  - [`eTSDefiningPageLayoutAndConnection:`页面布局和连接（ArkTS）（API7）](ETSUI/eTSDefiningPageLayoutAndConnection)
   - [`eTSDrawingAndAnimation:`绘图和动画（ArkTS）（API7）](ETSUI/eTSDrawingAndAnimation)
+  - [`BorderImageSample:`组件图片动态边框 （ArkTS）](https://gitee.com/harmonyos/samples/tree/master/ETSUI/BorderImageSample)
   - [`ColorFilterSample:`设置图片颜色（ArkTS）（API9）](ETSUI/ColorFilterSample)  
 - JAVAUI
   - [`Animation:`动画（Java）（API）（API5）](JAVAUI/Animation) 
