@@ -1,12 +1,9 @@
 # borderImage
 ### 简介
 本示例介绍了常用组件的borderImage属性，动态调整slice和width的值，可以看到目标图片边框里的图片有伸缩和宽高变化效果，效果图如下：
-
+![](screenshots/border_image_preview.gif)
 ### 相关概念
 borderImage属性为组件提供了通过图片和渐变色填充边框的能力。  
-
-### 效果预览
-![](screenshots/border_image_preview.gif)
 
 borderImage中传入的是BorderImageOption类型参数，BorderImageOption中如下属性。
 ![](screenshots/slice_sample_image.png)
