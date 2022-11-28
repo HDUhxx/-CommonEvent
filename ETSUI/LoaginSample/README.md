@@ -1,6 +1,6 @@
-## AboutSample
+## LoginSample
 ### 简介
-本示例模板模拟应用登录功能，包含用户名和密码两个输入框，登录注册两个按钮，遇见问题和隐私声明入口，效果图如下：  
+本示例模拟应用登录功能，包含用户名和密码两个输入框，登录注册两个按钮，遇见问题和隐私声明入口，效果图如下：  
 
 ![](./screenshots/device/login.gif)
 
@@ -20,5 +20,5 @@
 ## 约束与限制
 1、本示例支持API9及以上的标准系统上运行。  
 2、本示例支持SDK版本和DecEco Studio版本：  
-SDK版本：3.2.6.5 B安图恩及以上。  
+SDK版本：3.2.6.5 Bate及以上。  
 DecEco Studio版本：DecEco Studio 3.1 Canary1及以上。
