@@ -21,14 +21,18 @@ We provide a series of app samples to help you quickly get familiar with the API
   - [`TicTacToeGame:`Tic-Tac-Toe (Java)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/CompleteApps/TicTacToeGame) 
 - ETSUI
   - [`eTSBuildCommonView:`Building a Common View (eTS)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ETSUI/eTSBuildCommonView) 
-  - [`eTSDefiningPageLayoutAndConnection:`Defining Page Layout and Connection (eTS)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ETSUI/eTSDefiningPageLayoutAndConnection) 
-<<<<<<< HEAD
+  - [`eTSDefiningPageLayoutAndConnection:`Defining Page Layout and Connection (eTS)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ETSUI/eTSDefiningPageLayoutAndConnection)
   - [`eTSDrawingAndAnimation:`Drawing and Animation (eTS)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ETSUI/eTSDrawingAndAnimation)
-  - [`ColorFilterSample:`Setting picture color (ArkTS)](https://gitee.com/hundred_miles_long_sky/samples/tree/master/ETSUI/ColorFilterSample)  
-=======
-  - [`eTSDrawingAndAnimation:`Drawing and Animation (eTS)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/ETSUI/eTSDrawingAndAnimation) 
-  - [`BorderImageSample:`Component Image Dynamic Border (ArkTS)](https://gitee.com/harmonyos/samples/tree/master/ETSUI/BorderImageSample) 
->>>>>>> 16f351c182d33f86a9fe3da359b4968be796bc96
+  - [`ColorFilterSample:`Setting picture color (ArkTS)](https://gitee.com/hundred_miles_long_sky/samples/tree/master/ETSUI/ColorFilterSample)
+  - [`BorderImageSample:`Component Image Dynamic Border (ArkTS)](https://gitee.com/harmonyos/samples/tree/master/ETSUI/BorderImageSample)
+  - [`AboutSample:`Apply About Page (ArkTS) (API9)](ETSUI/AboutSample)
+  - [`BusinessSample:`Personal information page (ArkTS) (API9)](ETSUI/BusinessSample)
+  - [`CategoryListSample:`Category list page (ArkTS) (API9)](ETSUI/CategoryListSample)
+  - [`CategorySample:`Category layout (ArkTS) (API9)](ETSUI/CategorySample)
+  - [`GridSample:`Grid Layout (ArkTS) (API9)](ETSUI/GridSample)
+  - [`ListSample:`List content page (ArkTS) (API9)](ETSUI/ListSample)
+  - [`LoginSample:`Application login page (ArkTS) (API9)](ETSUI/LoginSample)
+  - [`SplashScreenSample:`Application start transition page (ArkTS) (API9)](ETSUI/SplashScreenSample)
 - JAVAUI
   - [`Animation:`Animation (Java)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/JAVAUI/Animation) 
   - [`CommonLayout:`Common Layouts (Java)](https://gitee.com/harmonyos/harmonyos_app_samples/tree/master/JAVAUI/CommonLayout)   
